@@ -13,7 +13,7 @@ request(url, (error, response, body) => {
     if (err) {
       console.error(err);
     }
-    console.log(`Downloaded and saved ${siteInfo} bytes to ${path}`)
+    console.log(`Downloaded and saved ${siteInfo.length} bytes to ${path}`)
   });
 });
 
